@@ -1,0 +1,60 @@
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Windows shortcuts and recycle bin
+*.lnk
+$RECYCLE.BIN/
+
+# Microsoft Office temporary and lock files
+~$*.docx
+~$*.xlsx
+~$*.pptx
+*.tmp
+*.temp
+
+# Power BI Desktop temporary and backup files
+*.pbix.autosave
+*.pbix.bak
+*.pbit.autosave
+
+# Power BI Project (PBIP) local and generated files
+**/.pbi/localSettings.json
+**/.pbi/cache.abf
+**/.pbi/unappliedChanges.json
+
+# Logs and local caches
+*.log
+.cache/
+temp/
+tmp/
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+*.secrets.json
+credentials.json
+
+# Database backups and local database files
+*.bak
+*.mdf
+*.ldf
+*.sqlite
+*.db
+
+# IDE and editor settings
+.vscode/
+.idea/
+*.code-workspace
+
+# Python artifacts, if scripts are added later
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Optional: uncomment these if the dataset or PBIX file is private or too large
+# data/*.csv
+# powerbi/*.pbix
