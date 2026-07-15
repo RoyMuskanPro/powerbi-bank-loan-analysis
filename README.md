@@ -25,7 +25,7 @@ This dashboard helps stakeholders monitor:
 
 ## Dashboard Preview
 
-![Bank Loan Dashboard](assets/dashboard-screenshots/1. loan-summary.png)
+![Bank Loan Dashboard](assets/dashboard-screenshots/01-loan-summary.png)
 
 ## Repository Structure
 
